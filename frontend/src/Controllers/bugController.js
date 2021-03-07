@@ -25,7 +25,7 @@ export function retrieveBugs() {
       version: "v2.0",
       assigned: "Sebastian",
       creator: "John Doe",
-      priority: 3,
+      priority: 2,
       time: "23:39",
     })
   );
