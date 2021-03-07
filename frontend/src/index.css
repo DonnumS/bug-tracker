@@ -1,11 +1,13 @@
-html {
-  margin-left: 20vw;
-  --prim-color: #264e70;
+#root {
+  grid-template-columns: 20% 80%;
+  display: grid;
+  --prim-color: #09015f;
   color: white;
+  margin: -8px;
 }
 
 button {
-  background: #ef6c57;
+  background: #55b3b1;
   border-radius: 5px;
   padding: 5px 20px;
   color: white;
@@ -16,5 +18,5 @@ button {
 
 button:hover {
   transition: all 0.3s;
-  background: #9c3829;
+  background: #f6c065;
 }
