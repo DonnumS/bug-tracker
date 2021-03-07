@@ -8,7 +8,7 @@ const slice = createSlice({
   },
   reducers: {
     signIn: (state, action) => {
-      const { name, password } = action.paylod;
+      const { name, password } = action.payload;
       state.LoggedIn = true;
       state.admin = true;
     },
