@@ -1,25 +1,28 @@
 #root {
   grid-template-columns: 20% 80%;
   display: grid;
-  --prim-color: #09015f;
-  --card-color: #faf9f6;
+  --prim-color: #27187ec2;
+  --card-color: #f1f2f6;
   color: white;
   margin: -8px;
 }
 
+body {
+  background-color: #aeb8fe;
+}
 button {
-  background: #55b3b1;
+  background: #758bfd;
   border-radius: 5px;
   padding: 5px 20px;
   color: white;
-  font: normal bold 18px "Open Sans", sans-serif;
+  font: normal bold 18px "Titillium Web", sans-serif;
   text-align: center;
   margin-bottom: 10px;
 }
 
 button:hover {
   transition: all 0.3s;
-  background: #f6c065;
+  background: #ff8600;
 }
 
 .page-container {

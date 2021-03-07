@@ -6,9 +6,20 @@
   margin: 10px;
   min-width: 275px;
   min-height: 200px;
+  border-radius: 10px;
 }
 
 .bug-card:hover {
   transition: all 0.4s;
   transform: scale(1.05);
+}
+
+.name {
+  margin: 30px;
+}
+.priority {
+  margin: 30px;
+}
+.version {
+  margin: 30px;
 }

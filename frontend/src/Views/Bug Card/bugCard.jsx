@@ -16,7 +16,7 @@ export default (props) => {
       <h4 className="priority" style={{ color: color }}>
         {level}
       </h4>
-      <h5 className="version">{version}</h5>
+      <h4 className="version">{version}</h4>
     </div>
   );
 };
