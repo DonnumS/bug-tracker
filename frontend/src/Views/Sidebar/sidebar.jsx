@@ -27,7 +27,7 @@ export default () => {
         </li>
         <hr className="gradient-hr"></hr>
         <li>
-          <Link to="/viewbugs" className="nav-link menu-item">
+          <Link to="/viewbugs" className="nav-link menu-item" href="#">
             View Bugs
           </Link>
         </li>

@@ -31,8 +31,6 @@
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.25em;
-  color: rgba(#fff, 0.35);
-
   color: white;
 }
 
@@ -40,8 +38,12 @@
   font-size: 0.5em;
 }
 
+.menu-item:active {
+  color: white;
+}
+
 .sidebar .logout {
-  font-size: 0.4em;
+  font-size: 0.6em;
   position: absolute;
   bottom: 0;
   left: 0;
