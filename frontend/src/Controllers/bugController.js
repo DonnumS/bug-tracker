@@ -21,7 +21,7 @@ export function retrieveBugs() {
       _id: 2345678,
       name: "Will not load",
       details: "Nothing happens when opening application",
-      steps: "Open application",
+      steps: "Open application ",
       version: "v2.0",
       assigned: "Sebastian",
       creator: "John Doe",
