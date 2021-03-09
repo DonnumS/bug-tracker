@@ -21,7 +21,7 @@ export default () => {
       </Link>
       <ul>
         <li>
-          <Link to="/" className="nav-link menu-item">
+          <Link to="/dashboard" className="nav-link menu-item">
             Dashboard
           </Link>
         </li>
